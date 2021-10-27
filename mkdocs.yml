@@ -1,0 +1,245 @@
+# Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: The Domik
+site_url: https://gangstahikka.github.io/domik/
+site_author: Mikhail Permyakov
+site_description: >-
+  Generate a house by one click or make your own procedural generation system and extend it with 2D and 3D assets.<br/>
+  Optimized. Fast. Flexible. Reliable. <br/>
+  Set up in 5 minutes.
+
+
+
+# Repository
+repo_name: Asset Store link
+repo_url: https://assetstore.unity.com/packages/tools/utilities/cozy-house-generator-139104
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2021 Mikhail Permyakov
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - header.autohide
+  # - navigation.instant
+    - navigation.indexes
+  #  - navigation.expand
+    - toc.integrate
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+  palette:
+    scheme: default
+    primary: black
+    accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: fontawesome/solid/home
+    repo: fontawesome/brands/unity
+
+# Plugins
+plugins:
+  - search
+  - roamlinks
+  - redirects
+  - mkdocs-video
+  - minify:
+      minify_html: true
+
+# Customization
+
+extra:
+  social:
+  #  - icon: fontawesome/brands/github
+  #    link: https://github.com/squidfunk
+  #  - icon: fontawesome/brands/gitter
+  #    link: https://gitter.im/squidfunk/mkdocs-material
+  #  - icon: fontawesome/brands/docker
+  #    link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+  #  - icon: fontawesome/brands/twitter
+  #    link: https://twitter.com/squidfunk
+  #  - icon: fontawesome/brands/linkedin
+  #    link: https://linkedin.com/in/squidfunk/
+  #  - icon: fontawesome/brands/instagram
+  #    link: https://instagram.com/squidfunk
+  
+  
+extra_css:
+  - stylesheets/extra.css
+  
+ 
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Documentation:
+    - getting started: documentation/getting-started.md
+    - Tutorials:
+        - how to create a procedural house: documentation/how-to-create-a-procedural-house.md
+        - how to change a house size: documentation/how-to-change-a-house-size.md
+        - how to change house floors: documentation/how-to-change-house-floors.md
+        - how the domik builds a house: documentation/how-the-domik-builds-a-house.md
+        - how to change room walls: documentation/how-to-change-room-walls.md
+        - how to replace models or materials: documentation/how-to-replace-models-or-materials.md
+        - how to add new stuff: documentation/how-to-add-new-stuff.md
+        - how to create and use a placeable object: documentation/how-to-create-and-use-a-placeable-object.md
+        - facades workflow: documentation/facades-workflow.md
+        - how to create a preview system: documentation/how-to-create-a-preview-system.md
+        - deep dive into house building process: documentation/deep-dive-into-house-building-process.md
+    - Main Concepts:
+        - house generator: documentation/house-generator.md
+        - preview system: documentation/preview-system.md
+        - part: documentation/part.md
+        - part builder: documentation/part-builder.md
+        - skin: documentation/skin.md
+        - palette: documentation/palette.md
+        - palettes random container: documentation/palettes-random-container.md
+        - place: documentation/place.md
+        - mask: documentation/mask.md
+        - placeable object: documentation/placeable-object.md
+        - placeable objects container: documentation/placeable-objects-container.md
+        - floor: documentation/floor.md
+        - interior: documentation/interior.md
+        - floor tag: documentation/floor-tag.md
+        - pipeline: documentation/pipeline.md
+  - Pipeline Nodes:
+    - Action: 
+        - extract positions: pipeline-nodes/extract-positions.md
+        - find and replace: pipeline-nodes/find-and-replace.md
+        - shift: pipeline-nodes/shift.md
+    - Add: 
+        - add part: pipeline-nodes/add-part.md
+    - Filter:
+        - filter by mask: pipeline-nodes/filter-by-mask.md
+        - filter by positions: pipeline-nodes/filter-by-positions.md
+        - filter by tag: pipeline-nodes/filter-by-tag.md
+        - filter floor: pipeline-nodes/filter-floor.md
+        - filter internal doors places: pipeline-nodes/filter-internal-doors-places.md
+        - filter intersections: pipeline-nodes/filter-intersections.md
+        - filter neighbor cells: pipeline-nodes/filter-neighbor-cells.md
+        - filter random cells: pipeline-nodes/filter-random-cells.md
+        - filter random input: pipeline-nodes/filter-random-input.md
+        - filter with part: pipeline-nodes/filter-with-part.md
+        - filter with parts: pipeline-nodes/filter-with-parts.md
+        - filter without part: pipeline-nodes/filter-without-part.md
+    - Flow:
+        - exclude: pipeline-nodes/exclude.md
+        - merge: pipeline-nodes/merge.md
+        - override: pipeline-nodes/override.md
+        - shuffle: pipeline-nodes/shuffle.md
+    - Interiors:
+        - calculate room interiors: pipeline-nodes/calculate-room-interiors.md
+        - place furniture: pipeline-nodes/place-furniture.md
+        - return interiors: pipeline-nodes/return-interiors.md
+        - split into rooms: pipeline-nodes/split-into-rooms.md
+    - Main:
+        - end: pipeline-nodes/end.md
+        - start: pipeline-nodes/start.md
+    - Place:
+        - place part by mask for all rotations: pipeline-nodes/place-part-by-mask-for-all-rotations.md
+        - place placeable object forced: pipeline-nodes/place-placeable-object-forced.md
+        - place placeable object: pipeline-nodes/place-placeable-object.md
+        - place stairs: pipeline-nodes/place-stairs.md
+    - Remove:
+        - apply parts removing: pipeline-nodes/apply-parts-removing.md
+        - remove part: pipeline-nodes/remove-part.md
+        - remove part later: pipeline-nodes/remove-part-later.md
+    - Skins:
+        - create skins layer: pipeline-nodes/create-skins-layer.md
+        - override skins layer: pipeline-nodes/override-skins-layer.md
+        - return skins layer: pipeline-nodes/return-skins-layer.md
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
