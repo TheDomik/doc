@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "main-concepts/floor.md",
+            "file": "getting-started.md",
             "mode": "source"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "main-concepts/floor.md",
+                "file": "getting-started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,11 +99,11 @@
   },
   "active": "c26d9e7e7301e539",
   "lastOpenFiles": [
+    "getting-started.md",
     "main-concepts/floor.md",
     "tutorials/how-to-replace-models-or-materials.md",
     "index.md",
     "main-concepts/skin.md",
-    "getting-started.md",
     "main-concepts/part-builder.md",
     "pipeline-nodes/add-part.md",
     "pipeline-nodes/start.md",
