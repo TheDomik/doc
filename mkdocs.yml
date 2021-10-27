@@ -151,35 +151,35 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Documentation:
-    - getting started: documentation/getting-started.md
+    - getting started: getting-started.md
     - Tutorials:
-        - how to create a procedural house: documentation/how-to-create-a-procedural-house.md
-        - how to change a house size: documentation/how-to-change-a-house-size.md
-        - how to change house floors: documentation/how-to-change-house-floors.md
-        - how the domik builds a house: documentation/how-the-domik-builds-a-house.md
-        - how to change room walls: documentation/how-to-change-room-walls.md
-        - how to replace models or materials: documentation/how-to-replace-models-or-materials.md
-        - how to add new stuff: documentation/how-to-add-new-stuff.md
-        - how to create and use a placeable object: documentation/how-to-create-and-use-a-placeable-object.md
-        - facades workflow: documentation/facades-workflow.md
-        - how to create a preview system: documentation/how-to-create-a-preview-system.md
-        - deep dive into house building process: documentation/deep-dive-into-house-building-process.md
+        - how to create a procedural house: tutorials/how-to-create-a-procedural-house.md
+        - how to change a house size: tutorials/how-to-change-a-house-size.md
+        - how to change house floors: tutorials/how-to-change-house-floors.md
+        - how the domik builds a house: tutorials/how-the-domik-builds-a-house.md
+        - how to change room walls: tutorials/how-to-change-room-walls.md
+        - how to replace models or materials: tutorials/how-to-replace-models-or-materials.md
+        - how to add new stuff: tutorials/how-to-add-new-stuff.md
+        - how to create and use a placeable object: tutorials/how-to-create-and-use-a-placeable-object.md
+        - facades workflow: tutorials/facades-workflow.md
+        - how to create a preview system: tutorials/how-to-create-a-preview-system.md
+        - deep dive into house building process: tutorials/deep-dive-into-house-building-process.md
     - Main Concepts:
-        - house generator: documentation/house-generator.md
-        - preview system: documentation/preview-system.md
-        - part: documentation/part.md
-        - part builder: documentation/part-builder.md
-        - skin: documentation/skin.md
-        - palette: documentation/palette.md
-        - palettes random container: documentation/palettes-random-container.md
-        - place: documentation/place.md
-        - mask: documentation/mask.md
-        - placeable object: documentation/placeable-object.md
-        - placeable objects container: documentation/placeable-objects-container.md
-        - floor: documentation/floor.md
-        - interior: documentation/interior.md
-        - floor tag: documentation/floor-tag.md
-        - pipeline: documentation/pipeline.md
+        - house generator: main-concepts/house-generator.md
+        - preview system: main-concepts/preview-system.md
+        - part: main-concepts/part.md
+        - part builder: main-concepts/part-builder.md
+        - skin: main-concepts/skin.md
+        - palette: main-concepts/palette.md
+        - palettes random container: main-concepts/palettes-random-container.md
+        - place: main-concepts/place.md
+        - mask: main-concepts/mask.md
+        - placeable object: main-concepts/placeable-object.md
+        - placeable objects container: main-concepts/placeable-objects-container.md
+        - floor: main-concepts/floor.md
+        - interior: main-concepts/interior.md
+        - floor tag: main-concepts/floor-tag.md
+        - pipeline: main-concepts/pipeline.md
   - Pipeline Nodes:
     - Action: 
         - extract positions: pipeline-nodes/extract-positions.md
