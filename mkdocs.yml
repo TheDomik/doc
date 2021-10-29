@@ -190,7 +190,7 @@ nav:
     - Filter:
         - filter by mask: pipeline-nodes/filter-by-mask.md
         - filter by positions: pipeline-nodes/filter-by-positions.md
-        - filter by tag: pipeline-nodes/filter-by-tag.md
+        - filter by floor tag: pipeline-nodes/filter-by-floor-tag.md
         - filter floor: pipeline-nodes/filter-floor.md
         - filter internal doors places: pipeline-nodes/filter-internal-doors-places.md
         - filter intersections: pipeline-nodes/filter-intersections.md

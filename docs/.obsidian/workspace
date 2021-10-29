@@ -9,10 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "getting-started.md",
+            "file": "main-concepts/floor-tag.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "b296124a649ec8e1"
       },
       {
         "id": "de53f26615b67661",
@@ -20,10 +21,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "main-concepts/skin.md",
+            "file": "main-concepts/floor-tag.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "b296124a649ec8e1"
       }
     ],
     "direction": "vertical"
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "getting-started.md",
+                "file": "main-concepts/floor-tag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +101,15 @@
   },
   "active": "c26d9e7e7301e539",
   "lastOpenFiles": [
-    "getting-started.md",
+    "main-concepts/floor-tag.md",
+    "pipeline-nodes/filter-by-floor-tag.md",
     "main-concepts/floor.md",
-    "tutorials/how-to-replace-models-or-materials.md",
-    "index.md",
+    "getting-started.md",
+    "main-concepts/interior.md",
+    "main-concepts/place.md",
     "main-concepts/skin.md",
-    "main-concepts/part-builder.md",
-    "pipeline-nodes/add-part.md",
-    "pipeline-nodes/start.md",
-    "pipeline-nodes/split-into-rooms.md",
-    "pipeline-nodes/shuffle.md"
+    "main-concepts/preview-system.md",
+    "main-concepts/mask.md",
+    "tutorials/how-to-replace-models-or-materials.md"
   ]
 }

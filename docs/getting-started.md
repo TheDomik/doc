@@ -65,7 +65,7 @@ It uses a visual scripting system to determine a logic of generation and designe
 - Filter:
 	- [filter by mask](filter-by-mask.md)
 	- [filter by positions](filter-by-positions.md)
-	- [filter by tag](filter-by-tag.md)
+	- [filter by floor tag](filter-by-floor-tag.md)
 	- [filter floor](filter-floor.md)
 	- [filter internal doors places](filter-internal-doors-places.md)
 	- [filter intersections](filter-intersections.md)

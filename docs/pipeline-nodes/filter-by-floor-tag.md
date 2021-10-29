@@ -1,9 +1,8 @@
-# **Filter By Tag**
+# **Filter By Floor Tag**
 
+![[Pasted image 20211029161833.png]]  
 
-![[Pasted image 20210918175526.png]]
-
-This node filters nodes by the [floor tag](floor-tag.md).  
+This node filter cells by the [floor tag](floor-tag.md).  
 Use this node to filter and process a specific floor.  
 	
 **Inputs:**

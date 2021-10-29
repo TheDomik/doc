@@ -1,19 +1,41 @@
-# Place
-To create new floor select some folder in the **Project** window -> Right Mouse Click -> Create -> Domik -> Place
+# **Place**
+The **Place** is a description of an environment of the **cell**.  
+Useful to filter **cells** which fit to place some **part** or to process some other way.  
+To create a **place**, select some folder in the **Project** window -> **Right Mouse Click** -> **Create** -> **Domik** -> **Place**.   
 
-Place is a description of some... place :D
-Basically it's a small 3x3x3 grid  with parts. Filter node or Placing System will use it to filter cells with identical environment. 
-So you can use it to define where you want to place some Placeable Object or you can use it to filter cells in the Pipeline.
+![[Pasted image 20211029115236.png]]  
 
-### Parts
-**Floor** -  select floor which cells you want to edit.
-#### Cells Grid
-Here is a grid of cells which represent some place. Click on some cell to start working with it.
+---
 
-- **Enable** - set true if you want to check this cell in filtration progress.
-- **Parts List** - add here all parts which you expect to see in this cell.
+## **Parts**
 
-!Note: disabled cell and enabled cell but without parts are not equal! If you enable some cell but didn't add parts means that you expect that this cell will be totally empty. 
+This is a section to describe an environment of the **cell**.   
+
+![[Pasted image 20211029115458.png]]  
+
+- **Floor** -  a floor where you want to edit environment **cells**.
+	- **Top** - edit **cells** on the floor above.
+	- **Current** - edit **cells** on the same floor as the **cell** to checking.
+	- **Down** - edit **cells** on the floor below.
+- **Grid** - the grid of environment **cells**. Click on some to start working with this **cell**.
+- **Enable** checkbox -  set it true if you this **cell** is a part of the place that you want to find.
+- **Parts list** - a list of **parts** that you expect to see in this **cell**.
 
 
+
+---
+
+The **Place** works better with the **Preview system**, every change that you make can be rendered by the **Preview system**, so just use it to make your life bit easy.  
+**Read more:** [preview system](preview-system.md).  
+
+=== "Selecting of places"
+	![[preview place.gif]]  
+	
+=== "Changing of the place"
+	![[preview place changes.gif]]  
+
+---
+
+**See also:** 
+[placeable object](placeable-object.md).
 
