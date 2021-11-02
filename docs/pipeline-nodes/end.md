@@ -1,6 +1,5 @@
 # **End** 
   
-![[Pasted image 20210929155859.png]]
 
 An **End** node is a final node of the pipeline. 
 You should have one to work with the Pipeline properly.  

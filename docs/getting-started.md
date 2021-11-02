@@ -5,7 +5,7 @@
 It uses a visual scripting system to determine a logic of generation and designed to work with modular building systems. 
 ## **Highlights**
 - Generation of room **interiors** with **furniture**.
-- Powerful visual scripting system - [**the Pipeline**](Introduction%20to%20the%20Pipeline.md).
+- Powerful visual scripting system - [The Pipeline](pipeline.md).
 - [Supports of third party assets.](how-to-replace-models-or-materials.md)
 - **Seed** number based generation, feel free to integrate it with your own procedural worlds.
 - Supports of **all types of gameobjects**, so you can place something like a spawn-point right in a house. [Just use a furniture system](how-to-add-new-stuff.md).
@@ -28,9 +28,12 @@ It uses a visual scripting system to determine a logic of generation and designe
 - [how to change room walls](how-to-change-room-walls.md)
 - [how to replace models or materials](how-to-replace-models-or-materials.md)
 - [how to add new stuff](how-to-add-new-stuff.md)
+- [what is a part builder space](what-is-a-part-builder-space.md)
 - [how to create and use a placeable object](how-to-create-and-use-a-placeable-object.md)
+- [how to create a place](how-to-create-a-place.md)
 - [facades workflow](facades-workflow.md)
 - [how to create a preview system](how-to-create-a-preview-system.md)
+- [how to create and use the pipeline](how-to-create-and-use-the-pipeline.md)
 - [deep dive into house building process](deep-dive-into-house-building-process.md)
 
 ---

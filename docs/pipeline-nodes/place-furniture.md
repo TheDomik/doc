@@ -15,10 +15,9 @@ This node places interior furniture to input cells.
 	
 
 ??? note "Read this to find out how to..."
-
-	- **Add look for furniture** - [[Furniture]]
-	- **Create new furniture** - [[Placeable Object]]
-	- **Add furniture to the interior** - [[Interiors]]
+	- **Add look for furniture** - [how to add new stuff](how-to-add-new-stuff.md).
+	- **Create new furniture** - [how to create and use a placeable object](how-to-create-and-use-a-placeable-object.md).
+	- **Add furniture to the interior** - [[interior]]
 
 --------
 

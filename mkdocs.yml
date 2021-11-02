@@ -160,9 +160,12 @@ nav:
         - how to change room walls: tutorials/how-to-change-room-walls.md
         - how to replace models or materials: tutorials/how-to-replace-models-or-materials.md
         - how to add new stuff: tutorials/how-to-add-new-stuff.md
+        - what is a part builder space: tutorials/what-is-a-part-builder-space.md
         - how to create and use a placeable object: tutorials/how-to-create-and-use-a-placeable-object.md
+        - how to create a place: tutorials/how-to-create-a-place.md
         - facades workflow: tutorials/facades-workflow.md
         - how to create a preview system: tutorials/how-to-create-a-preview-system.md
+        - how to create and use the pipeline: tutorials/how-to-create-and-use-the-pipeline.md
         - deep dive into house building process: tutorials/deep-dive-into-house-building-process.md
     - Main Concepts:
         - house generator: main-concepts/house-generator.md
@@ -240,6 +243,6 @@ nav:
     
 
 # Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto

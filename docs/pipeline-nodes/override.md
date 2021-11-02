@@ -33,18 +33,6 @@ Let's remove windows from yellow walls by the **Find and Replace** node.
 ![[Pasted image 20210929150919.png]]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 Now we can apply changes to the main flow by the **Override** node.  
 ![[Pasted image 20210929150818.png]]
 ![[Pasted image 20210929150901.png]]

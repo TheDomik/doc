@@ -29,5 +29,5 @@ To start working with **cells** select some **cell** in the grid.
 
 ---
 
-You can see changes of mask by the [preview system](preview-system.md).
-![[mask preview.gif]]
+You can see changes of the **mask** by the [preview system](preview-system.md).
+![[mask preview.gif]].

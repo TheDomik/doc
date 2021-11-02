@@ -96,7 +96,6 @@ The priority of **skins** asking from highest to lowest:
 
 So in the result it returns a structured collection of **Part Builders** - a **House Build Data**. 
 
-
 ??? Abstract "Representation in code"
 
 	=== "Floors"	

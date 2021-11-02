@@ -20,14 +20,14 @@ Sometimes it contains parameters.
 
 
 Every pipeline instance should have at least two nodes: Start Node and End Node. 
-Start Node gets an info from [[House Generator OLD]] and constructs raw cells.
+Start Node gets an info from [house generator](house-generator.md) and constructs raw cells.
 End Node returns processed nodes to the House Builder.
 
 Here is an example of primitive pipeline.
 
 ![[Pasted image 20210105163924.png]]
 
-- **Start** Node  - creates a set of nodes based an info from [[House Generator OLD]].
+- **Start** Node  - creates a set of nodes based an info from [the house generator](house-generator.md).
 - **Add Parts** Node - adds Floor part and Ceiling part to all cells from input.
 - **End** node - returns input cells with floors and ceilings to the House Builder.
 
