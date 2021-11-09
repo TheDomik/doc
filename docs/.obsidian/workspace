@@ -1,25 +1,18 @@
 {
   "main": {
-    "id": "70137c28e6b2ae2a",
+    "id": "1a90845223dac137",
     "type": "split",
     "children": [
       {
-        "id": "de53f26615b67661",
+        "id": "15884461aa4b0cbe",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        },
-        "group": "6525d4eef0d6113b"
-      },
-      {
-        "id": "d6347fc26a8c2f18",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        },
-        "group": "6525d4eef0d6113b"
+          "type": "markdown",
+          "state": {
+            "file": "tutorials/palettes-workflow.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -46,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Pasted image 20210407141548",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 461
   },
   "right": {
     "id": "c544c8d63846e75c",
@@ -75,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tutorials/palettes-workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,17 +86,17 @@
     "width": 214,
     "collapsed": true
   },
-  "active": "de53f26615b67661",
+  "active": "15884461aa4b0cbe",
   "lastOpenFiles": [
-    "assets/WTF/Pasted image 20210407141548.png",
-    "assets/WTF/Pasted image 20210407135924.png",
-    "assets/WTF/Pasted image 20210405173025.png",
-    "assets/WTF/Pasted image 20210402161447.png",
-    "assets/WTF/Pasted image 20210330183338.png",
-    "assets/WTF/Pasted image 20210329185321.png",
-    "assets/WTF/Pasted image 20210106170727.png",
-    "assets/WTF/Pasted image 20210105135913.png",
-    "assets/WTF/Pasted image 20210105135646.png",
-    "assets/WTF/Pasted image 20210104210708.png"
+    "tutorials/palettes-workflow.md",
+    "assets/T_PALETTES_WORKFLOW/palette light creation and setting up FASTER V2.gif",
+    "tutorials/how-to-create-a-preview-system.md",
+    "tutorials/how-to-create-a-place.md",
+    "assets/T_HOW_TO_CREATE_A_PREVIEW/accessible.png",
+    "assets/T_HOW_TO_CREATE_A_PREVIEW/add base childs.gif",
+    "T_HOW_TO_CREATE_A_PREVIEW/create preview gameobjects DELETE ME.gif",
+    "T_HOW_TO_CREATE_A_PREVIEW/create preview gameobjects faster.gif",
+    "assets/T_HOW_TO_CREATE_A_PREVIEW/set PO links V2.gif",
+    "T_HOW_TO_CREATE_AND_USE_PALETTES/select regualr walls DELETE ME.gif"
   ]
 }

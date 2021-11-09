@@ -164,6 +164,7 @@ nav:
         - how to create and use a placeable object: tutorials/how-to-create-and-use-a-placeable-object.md
         - how to create a place: tutorials/how-to-create-a-place.md
         - facades workflow: tutorials/facades-workflow.md
+        - palettes workflow: tutorials/palettes-workflow.md
         - how to create a preview system: tutorials/how-to-create-a-preview-system.md
         - how to create and use the pipeline: tutorials/how-to-create-and-use-the-pipeline.md
         - deep dive into house building process: tutorials/deep-dive-into-house-building-process.md
