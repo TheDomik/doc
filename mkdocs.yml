@@ -82,6 +82,10 @@ plugins:
   - mkdocs-video
   - minify:
       minify_html: true
+  #- pdf-with-js
+  #- pdf-export:
+  #    verbose: true
+  #    media_type: print
 
 # Customization
 
